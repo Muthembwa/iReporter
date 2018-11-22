@@ -21,9 +21,8 @@ li{
 float: right;
 border-left: 1px solid #bbb
 }
-li:last-child{
-    border-right: none;
-}
+
+
 li a{
     display:block;
     padding: 8px;
@@ -35,11 +34,18 @@ li a{
 li a:hover{
     background-color: #00a2ff
 }
+/** styling body**/
+img{
+    position: fixed;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
 
 /** styling form**/
 .loginform{
-    
-    position: fixed;
+    width:400px;
+   position: fixed;
     top: 20%;
     left: 33%;
     margin-top: -50px;
@@ -47,8 +53,8 @@ li a:hover{
     padding: 70px; 
     border: 5px solid gray;
     text-align: center;
-    background-color: rgba(53, 0, 0, 0.562)
-
+    background-color: rgba(53, 0, 0, 0.562);
+    color : white
 }
 input{
     width: 100%;   
@@ -64,6 +70,10 @@ input[type=submit]{
     text-decoration:none;
     margin:4px 2px;
     cursor: pointer;
+}
+a{
+    color: white;
+    padding: 10px;
 }
 
 
