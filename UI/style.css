@@ -9,11 +9,6 @@
     color: white
 }
 
-header{
-    padding: 10;
-
-    text-align: center;
-}
 ul{
     list-style-type: none;
     margin: 0;
@@ -45,16 +40,19 @@ li a:hover{
 .loginform{
     
     position: fixed;
-    top: 30%;
-    left: 35%;
+    top: 20%;
+    left: 33%;
     margin-top: -50px;
-    margin-left: -100px;
-    padding: 99px;
+    margin-left: -30px;
+    padding: 70px; 
     border: 5px solid gray;
+    text-align: center;
+    background-color: rgba(53, 0, 0, 0.562)
+
 }
 input{
     width: 100%;   
-    padding: 12px 20px;
+    padding: 6px 10px;
     margin: 8px 0;
     box-sizing: border-box;
 }
@@ -63,8 +61,8 @@ input[type=submit]{
     border:none;
     color: white;
     padding: 16px 32px;
-    text-decoration: none;
-    margin :4px 2px;
+    text-decoration:none;
+    margin:4px 2px;
     cursor: pointer;
 }
 
