@@ -6,39 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/indexstyle.css" />
     <script src="main.js"></script>
 </head>
-<nav class="navbar">
-    <ul>
-        <li><a href="signup.html">Register now</a> </li>
-        <li><a href="Admin.html">Admin</a> </li>
-    </ul>
-</nav>
+
 <body>
+    
+ <!-- navigation -->
+    <nav class="navbar">
+        <ul id="menu-main" class="nav">
+            <li><a title="Intervention" href="intervention.html">Interventions</a></li>
+            <li><a title="Flags" href="flags.html">Flags</a></li>
+            <li><a title="Home" href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <img src="bell.jpg" alt="Ring a bell">
+    <h1 class="titlei"> <a href="index.html">iReporter</a></h1> 
     
 
     <form> 
-    <div class="loginform">
-        <h1>iReporter</h1>
-        <h2>Sign In</h2>
-        <div class="username" >
-            <em>User Name:</em>
-            <input id=user type="text" name="username">
-        </div>
-        <div class="password" >
+        <div class="option">
+                
         
-            <em>Password:</em>
-            <input id=pass type=" password" name="password">
-        </div>
-        <div class="submit" >
-            <input id=SignIn type="submit" name="submit" value="sign In"> 
-        </div>
-        <div class="forgot" >
-            <a href="resetpassword.html">forgot password?</a> 
-         </div>
-    </div>
-    </form>
+            <h1>Select Action</h1>
 
+            <div class="submit" >
+                <input id=flag type="submit" name="submit" value="Record a Red-flag"> <br> <em>(An incident linked to corruption)</em>
+            </div>
+            <div class="submit" >
+                    <input id=intervention type="submit" name="submit" value="Record an intervention"> <br> <em>(a call for government agency intervention ).</em>
+            </div>
+    
+            <div class="desc">
+                <p>iReporter enables citizens to bring any form of corruption to the notice of appropriate authorities and the
+                        general public.<br> Users can also report on things that needs government intervention</p>
+            </div>
+        </div>
+    </form>
 </body>
 </html>

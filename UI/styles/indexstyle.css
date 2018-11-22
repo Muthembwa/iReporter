@@ -1,6 +1,7 @@
 
 /** styling navigation bar**/
 .navbar{
+    width: 100%;
     background-color: rgb(51, 0, 0);
     margin-top: 0px;
     margin-left: 0px;
@@ -19,7 +20,7 @@ ul{
 
 li{
 float: right;
-border-left: 1px solid #bbb
+
 }
 
 
@@ -28,30 +29,47 @@ li a{
     padding: 8px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
 }
 
 li a:hover{
     background-color: #00a2ff
 }
+
 /** styling body**/
+.titlei{
+    text-align: center;
+}
+a{
+    text-align: center;
+    font-family: 'Arial, Helvetica, sans-serif';text-align: left;
+    color: rgb(51, 0, 0);
+    text-decoration:none;
+}
+.desc{
+    text-align: center;
+    font-family: 'Arial, Helvetica, sans-serif';
+    background-color: rgba(53, 0, 0, 0.575);
+    color: #ffffff;
+    padding: 18px;
+
+}
+/** styling form**/
 img{
     position: fixed;
     width: 100%;
     padding: 0%;
-    margin: 0%;
-}
-
-/** styling form**/
-.loginform{
+    margin: 0%;}
+.option{
     width:400px;
+    height: 400px;
    position: fixed;
-    top: 20%;
-    left: 33%;
-    margin-top: -50px;
-    margin-left: -30px;
-    padding: 70px; 
-    border: 5px solid gray;
+    top: 10%;
+    left: 28%;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 50px; 
+    border: 3px solid rgb(255, 255, 255);
     text-align: center;
     background-color: rgba(53, 0, 0, 0.562);
     color : white
@@ -59,21 +77,20 @@ img{
 input{
     width: 100%;   
     padding: 6px 10px;
-    margin: 8px 0;
+    margin: 0px 0;
     box-sizing: border-box;
 }
 input[type=submit]{  
-    background-color: rgb(51, 0, 0);
-    border:none;
+    background-color:rgb(51, 0, 0);
+    border: 2px solid white;
     color: white;
     padding: 16px 32px;
     text-decoration:none;
     margin:4px 2px;
     cursor: pointer;
 }
-a{
-    color: white;
-    padding: 10px;
+.submit{
+    padding: 8px;
 }
 
 
