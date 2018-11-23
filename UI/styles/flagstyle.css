@@ -63,7 +63,7 @@ img{
     margin: 0%;}
 .option{
     width:400px;
-    height: 400px;
+    height: 450px;
    position: fixed;
     top: 10%;
     left: 28%;
@@ -76,6 +76,13 @@ img{
     color : white
 }
 input{
+    width: 100%;   
+    padding: 10px 20px;
+    margin: 0px 0;
+    box-sizing: border-box;
+
+}
+#loc{
     width: 100%;   
     padding: 10px 20px;
     margin: 0px 0;
