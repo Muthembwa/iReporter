@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="styles/indexstyle.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/flagstyle.css" />
     <script src="main.js"></script>
 </head>
 
@@ -28,14 +28,21 @@
         <div class="option">
                 
         
-        <h1>Select Action</h1>
+            <h1>Record a Red Flag</h1>
 
-        <div= class="selectaction">
-            <ul>
-                <li><a title="Flags" href="flag.html">Record a Red-flag<br>(corruption incidence)</a></li> 
-                <li><a title="Home" href="intervention.html">Record an intervention <br> <em>(a call for government agency intervention ).</em></a></li> 
-           
-            </ul>
+        <div class="title" >
+            <input id=flagrecord type="text" name="Title" value="Flag Title"> 
+        </div>
+        <div class="textarea" >
+            <textarea  type="" name="incidence" rows="6" cols="55"> Describe the corruption incidedence</textarea>
+        <div class="date"><input type="date" name="Flag Date"></div>
+        
+        </div>
+            <div class="files" >
+                    <input id=flagrecord type="file" name="image" value="Upload Evidence if any"> 
+            </div>
+            <div class="submit" >
+                <input id=flagrecord type="submit" name="submit" value="Record"> 
         </div>
             
         </div>
