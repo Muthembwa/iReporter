@@ -7,7 +7,20 @@ body, html {
     display: flex;
     flex-direction: column;
 }
-
+#main-content h2{
+    text-align: center;
+}
+#user1{
+    margin-top: 0;
+    border: 3px solid rgb(51, 0, 0);
+    color: rgb(51, 0, 0);
+   
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px 10px;
+    width: auto;
+    
+}
 table.Table {
     border: 1px solid rgb(51, 0, 0,);
     background-color: rgba(53, 1, 1, 0.795);
