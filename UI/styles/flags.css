@@ -128,9 +128,9 @@ li a:hover{
     background-color:rgb(51, 0, 0);
     height: auto;
     grid-template-rows: 1fr;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 33.3% 33.3% 33.3%;
     
-    grid-template-areas: "resolvedcases" "Underinvestigation";
+    grid-template-areas: "resolvedcases" "Underinvestigation" "rejectedcases";
     color: #FFFFFF;
     text-align: center;
 }
