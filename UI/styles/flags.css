@@ -127,11 +127,15 @@ li a:hover{
     height :200px;
     background-color:rgb(51, 0, 0);
     height: auto;
-    grid-template-columns: 1fr;
-    grid-template-rows: 100%;
-    grid-template-areas: "resolvedcases";
+    grid-template-rows: 1fr;
+    grid-template-columns: 50% 50%;
+    
+    grid-template-areas: "resolvedcases" "Underinvestigation";
     color: #FFFFFF;
     text-align: center;
+}
+h3 {
+    padding: 30px;
 }
 
 #mainselection select {
