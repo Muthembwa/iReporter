@@ -4,4 +4,5 @@ It is Has two users;Users(any/every citizen) and administrator
 This is just a wired User Interface.
 The main page to load first is login.html
 To run it go to https://muthembwa.github.io/iReporter/UI/login.html
-The UI is just wired for demonstration don't expect to really sign up or in just clink the links :-)
+The UI is just wired for demonstration don't expect to really sign up or in just click the links :-)
+The front end is to work with the following API https://github.com/Muthembwa/iReporter-Api
